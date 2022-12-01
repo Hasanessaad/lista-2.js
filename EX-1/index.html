@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX-1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="clm-1">
+
+        <label for="">Blank votes</label>
+        <input type="number" id="blank-votes">
+
+        <label for="">Null votes</label>
+        <input type="number" id="null-votes">
+
+        <label for="">Valid votes</label>
+        <input type="number" id="valid-votes">
+
+        <button onclick="submit_all()">SUBMIT ALL</button>
+    
+    </div>
+
+    <br>
+
+    <div class="clm-2">
+
+        <h3>the percentage of Valid votes is:</h3>
+        <h4 id="valid-results"></h4>
+
+        <h3>the percentage of Blank votes is:</h3>
+        <h4 id="blank-results"></h4>
+
+        <h3>the percentage of Null votes is:</h3>
+        <h4 id="null-results"></h4>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
