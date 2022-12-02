@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,38 @@
     <title>EX-6</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <div class="cont">
+        <div class="box">
+
+            <div class="clmn-1">
+                <h5 class="lab">LOGIN</h5>
+            </div>
+
+            <div class="clmn-2">
+            
+                <label for="" class="lab">Username</label>
+                <input type="number" id="username" class="inp" autocomplete="off" placeholder="username">
+                <label for="" class="lab">Password</label>
+                <input type="password" id="password" class="inp" placeholder="passworde">
+                <p id="error"></p>
+
+            </div>
+
+            <div class="btns">
+
+                <button onclick="submit()">Submit</button>
+                <button id="btnclear">Clear</button>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+
     <script src="index.js"></script>
 </body>
 </html>

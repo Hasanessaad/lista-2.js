@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.box{
+    border: 2px solid rgb(22, 148, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+.clmn-1{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.clmn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inp{
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lab{
+    font-family: 'Zen Dots', cursive;
+}
+button{
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: lightgreen;
+    color: aliceblue;
+    width: 80px;
+    height: 30px;
+}

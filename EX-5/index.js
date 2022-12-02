@@ -20,6 +20,8 @@ function submit(){
         document.getElementById("pro").innerHTML = (product + " will be:");
         document.getElementById("result").innerHTML = (result + " R$");
 
+        alert("discount of 2%");
+
     }if(quantity > 5 && quantity <=10){
 
         total = Number(quantity) * Number(price);
@@ -28,6 +30,8 @@ function submit(){
 
         document.getElementById("pro").innerHTML = (product + " will be:");
         document.getElementById("result").innerHTML = (result + " R$");
+
+        alert("discount of 3%");
 
     }if(quantity > 10){
 
@@ -38,7 +42,8 @@ function submit(){
         document.getElementById("pro").innerHTML = (product + " will be:");
         document.getElementById("result").innerHTML = (result + " R$");
 
-    }
+        alert("discount of 5%");
 
+    }
 
 }
