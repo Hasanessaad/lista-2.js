@@ -11,36 +11,40 @@
 
 </head>
 
-<body>
+<body class="backy">
 
-    <div class="clm-1">
+    <div class="box">
 
-        <label for="">Blank votes</label>
-        <input type="number" id="blank-votes">
+        <div class="clm-1">
 
-        <label for="">Null votes</label>
-        <input type="number" id="null-votes">
+            <label for="">Blank votes</label>
+            <input type="number" id="blank-votes">
 
-        <label for="">Valid votes</label>
-        <input type="number" id="valid-votes">
+            <label for="">Null votes</label>
+            <input type="number" id="null-votes">
 
-        <button onclick="submit_all()">SUBMIT ALL</button>
+            <label for="">Valid votes</label>
+            <input type="number" id="valid-votes">
+
+            <button onclick="submit_all()" class="btns">SUBMIT ALL</button>
+        
+        </div>
+
+        <br>
+
+        <div class="clm-2">
+
+            <h3>the percentage of Valid votes is:</h3>
+            <h4 id="valid-results"></h4>
+
+            <h3>the percentage of Blank votes is:</h3>
+            <h4 id="blank-results"></h4>
+
+            <h3>the percentage of Null votes is:</h3>
+            <h4 id="null-results"></h4>
+
+        </div>
     
-    </div>
-
-    <br>
-
-    <div class="clm-2">
-
-        <h3>the percentage of Valid votes is:</h3>
-        <h4 id="valid-results"></h4>
-
-        <h3>the percentage of Blank votes is:</h3>
-        <h4 id="blank-results"></h4>
-
-        <h3>the percentage of Null votes is:</h3>
-        <h4 id="null-results"></h4>
-
     </div>
 
     <script src="index.js"></script>

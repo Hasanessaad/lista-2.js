@@ -1,11 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 .clm-1{
-    border: 1px solid red;
+    margin-top: 80px;
     width: 30%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
 .clm-2{
-    border: 1px solid blue;
     width: 30%;
+}
+.box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btns{
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: yellowgreen;
+    margin-top: 10px;
+    height: 30px;
+    color: aliceblue;
+}
+.backy{
+    background-color: beige;
+}
+label{
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    border-width: 0.1px;
+    background-color: rgb(234, 251, 234);
 }
